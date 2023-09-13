@@ -1,0 +1,46 @@
+.right>img {
+    height: 70vh;
+    margin-right: 5%;
+    position: absolute;
+    right: 50px;
+    top: 100px;
+}
+
+.left {
+    width: 35vw;
+    position: relative;
+    top: 150px;
+    left: 50px;
+}
+
+.left p {
+    font-size: 4rem;
+    color: red;
+}
+
+.hand {
+    transform: rotate(45deg);
+    position: absolute;
+    top: 210px;
+    left: -240px;
+}
+
+.logo{
+    width: 8%;
+    position: absolute;
+}
+
+.logoName{
+    margin-left: 8%;
+}
+
+.nav-item a:hover{
+    border: 0.1px solid rgb(188, 238, 238);
+
+    border-radius: 30px;
+}
+
+.nav-item a{
+    color: red;
+    border-radius: 30px;
+}

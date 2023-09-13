@@ -1,0 +1,27 @@
+<section class="section">
+    <div class="main bg-red-900 w-2/3 h-2 rounded">
+      <div class="left">
+        <img src="../../assets/fa02f02750ca2fc21924f74777c2d942-removebg-preview.png">
+      </div>
+  
+      <div class="right">
+        <form class="form1" (ngSubmit)="userLogin()">
+          <div class="logo">
+            <img src="../../assets/logo.png">
+          </div>
+          <div class="mb-2">
+            <label for="exampleInputEmail1" class="form-label ">User Name</label>
+            <input [(ngModel)]="userName" [ngModelOptions]=" {standalone: true }" type="text" class="form-control" id="exampleInputEmail1" placeholder="userName" aria-describedby="emailHelp">
+          </div>
+          
+          <div class="mb-2">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input [(ngModel)]="password" [ngModelOptions]=" {standalone: true }" type="password" class="form-control " id="exampleInputPassword1" placeholder="password">
+            <div class="worning-icon" (mousemove)="more()">!</div>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  

@@ -1,0 +1,95 @@
+.main {
+    background-color: red;
+    width: 60%;
+    height: 60vh;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 2px solid red;
+}
+
+.left {
+    background-color: white;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+
+}
+
+.left img {
+    position: absolute;
+left: -5%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.right {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(9deg, rgba(2, 0, 36, 1) 0%, rgba(22, 63, 122, 1) 32%, rgba(0, 212, 255, 1) 100%);
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    margin: auto;
+
+}
+
+
+.form1 {
+    background-color: #f0eded;
+    position: absolute;
+    width: 60%;
+    bottom: 10%;
+    height: 85%;
+    top: 8%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 5%;
+    border-radius: 10%;
+    /* box-shadow: 5px 5px 5px #ccc6c6; */
+    box-shadow: 5px 2px 2px 1px rgba(118, 112, 112, 0.5);
+    color: black;
+}
+
+.logo img {
+    width: 70%;
+    left: 20%;
+    margin: auto;
+    position: relative;
+}
+
+.logo img {
+    width: 55%;
+}
+
+.btn {
+    position: absolute;
+    width: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.worning-icon{
+    color: red;
+    background-color: black;
+    width: 10%;
+    height: 10%;
+    margin-top: 2px;
+    border-radius: 50%;
+    padding-left: 9px;
+}
+
+
+.worning{
+    display: none;
+    text-underline-offset: unset;
+    font-size: x-small;
+    color: red;
+}

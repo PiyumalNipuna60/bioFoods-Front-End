@@ -1,0 +1,17 @@
+.logo{
+    width: 8%;
+    position: absolute;
+}
+
+.logoName{
+    margin-left: 8%;
+}
+
+/* #navbar{
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    position: fixed;
+    display: flex;
+    z-index: 1;
+    width: -webkit-fill-available;
+} */
