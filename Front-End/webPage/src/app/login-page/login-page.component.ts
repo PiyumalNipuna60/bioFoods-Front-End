@@ -2,6 +2,7 @@ import { style } from '@angular/animations';
 import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { HomePageComponent } from '../home-page/home-page.component';
+import { Route, Router } from '@angular/router';
 
 
 @Component({
@@ -20,7 +21,7 @@ export class LoginPageComponent {
   UserArry: any[] = [];
   isTrue: boolean =false;
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient,private router:Router) { }
 
   userLogin() {
     let bodyData = {
@@ -47,6 +48,7 @@ export class LoginPageComponent {
       .subscribe((resultData: string) => {
         if (resultData == "true") {
           alert("Login successfully..!");
+          this.router.navigateByUrl('home');
         } else {
           alert("wrong Password..!");
         }
@@ -83,10 +85,8 @@ export class LoginPageComponent {
 		//if value is less than 2
 		if (strength > 3)
 		{
-      alert(this.password+" and "+strength)
       return true
     }else{
-      alert(this.password+" and "+strength)
       return false;
     }
   }
